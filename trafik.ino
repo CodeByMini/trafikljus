@@ -26,8 +26,8 @@ När cyklen har gått så får vilket trafikljus som helst ändra sig till grön
 Ni får självklart sammarbeta med varandra för att lösa uppgiften. Denna uppgift ska du även skicka in. Dock är detta inte betygsgrundande.
 */
 
-#define RED 4 
-#define GREEN 2 
+#define RED 4
+#define GREEN 2
 #define YELLOW 3
 #define BUTTON 7
 
@@ -62,7 +62,7 @@ void setup(){
     Serial.begin(9600);
 }
 
-void loop(){ 
+void loop(){
     CheckSerial();
    
     int button = digitalRead(BUTTON);
